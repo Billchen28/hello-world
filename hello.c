@@ -2,11 +2,11 @@
 #include <sys/syscall.h>
 
 #ifndef DOCKER_IMAGE
-	#define DOCKER_IMAGE "hello-world"
+	#define DOCKER_IMAGE "Welcome to floatyun."
 #endif
 
 #ifndef DOCKER_GREETING
-	#define DOCKER_GREETING "Hello from Docker!"
+	#define DOCKER_GREETING "Welcome to floatyun."
 #endif
 
 #ifndef DOCKER_ARCH
@@ -35,7 +35,7 @@ const char message[] =
 	"\n"
 	"For more examples and ideas, visit:\n"
 	" https://docs.docker.com/engine/userguide/\n"
-	"\n";
+	"from jiubiaochen\n";
 
 void _start() {
 	//write(1, message, sizeof(message) - 1);
